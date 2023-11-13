@@ -17,6 +17,7 @@ Projeto de filmes e séries em React usando SCSS (Sass), referente a aula de Sas
 ## Estrutura do Projeto
 
 - `src/`: Esta pasta contém o código-fonte do projeto.
+-  `public/`: ------------
   - `images/`: Aqui estão armazenados recursos estáticos, como imagens, vídeos, gifs.
   - `components/`: Os componentes React, incluindo o componente `Movies.jsx`, estão localizados aqui.
   - `App.jsx`: O ponto de entrada da aplicação React.
