@@ -27,13 +27,6 @@ Projeto de filmes e séries em React usando SCSS (Sass), referente a aula de Sas
 - `vite.config.js`: Aqui contém arquivos de confffigurações do vite.
 - `README.md`: Este arquivo, que fornece informações sobre o projeto.
 
-## Demonstração
-
-
-[![Assista ao Vídeo de Demonstração](./src/video/MeuVideo.mp4.mp4)]
-
-Clique na imagem acima para assistir ao vídeo de demonstração.
-
 ## Licença
 
 Este projeto é licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
