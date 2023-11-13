@@ -1,0 +1,89 @@
+$cor_fundo_roxa: rgb(77, 59, 233);
+$cor_letra_branca:#ffff;
+
+@mixin display_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kralken', sans-serif;
+    background-color: #7f79f5                                         
+}
+
+header{
+    @include display_center;
+    justify-content: space-around;
+    background-color:$cor_fundo_roxa;
+    color:$cor_letra_branca;
+    height: 36vh;
+
+    p {
+      font-size: 22px;
+    }
+    p:hover{
+      transform: scale(110%);
+    }
+  
+    ul{
+      @include display_center;
+      justify-content: space-between;
+      list-style:none;
+      font-size: 22px;
+      width: 38vw;
+    } 
+    li:hover{
+      transform: scale(110%);
+    }
+    img{
+      width: 12vw;
+      border-radius: 50%;
+    }
+}
+  
+main{
+    section{
+      @include display_center;
+      height:70vh;
+    }
+  
+    h1{
+      text-align: center;
+      padding: 30px;
+    }
+    .series{
+      font-size: 32px;
+      text-align: center;
+      margin-top: 5px;
+    }
+}
+
+figure{
+        @include display_center;
+        width:100%;
+        justify-content: space-evenly;
+     
+    img{
+        width: 18vw;
+        height: 45vh;
+        border-radius: 20px;
+        border:solid;
+  }
+  &:hover {
+    transform: scale(1.1);
+    filter: brightness(85%); 
+  }
+}
+
+footer p {
+  font-size: 20px;
+  text-align: center;
+  height: 12vh;
+  padding-top: 12px;
+  color: #ffff;
+  background-color: #006872;
+}
